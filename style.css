@@ -31,9 +31,20 @@ h2:hover{
   color:darkturquoise;
 }
 
+h3 {
+  color: black;
+  font-style:italic;
+  text-align: right;
+  font-family: 'Cochin';
+  font-size: 2em;
+  margin-right:2%;
+  margin-top:20%;
+  margin-bottom:20%;
+}
+
 body{
-  margin-left:10%;
-  margin-right:10%;
+  padding-left:10%;
+  padding-right:10%;
 }
 
 .box {
@@ -74,15 +85,45 @@ img {
   object-fit: cover;
 }
 
+.fullPic{
+
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+   position:absolute;
+   max-width:80%;
+   height:auto;
+
+}
+
+.fullPic:hover{
+	filter:brightness(100%);
+}
+
 p {
   color: black;
-  text-align: center;
+  text-align: justify;
   font-family: 'Cochin';
   font-size: 1em;
-  position:absolute;
   padding-top:1em;
-  padding-right:2em;
+  padding-right:auto;
   padding-left:2em;
+  width:80%;
+  margin-bottom:7em;
+  line-height:1.5em;
+}
+
+
+.fullText{
+  color: black;
+  text-align: justify;
+  font-family: 'Cochin';
+  font-size: 1em;
+  padding-top:1em;
+  padding-right:auto;
+  padding-left:2em;
+  width:95%;
+  margin-bottom:7em;
 }
 
 img:hover{
