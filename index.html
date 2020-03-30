@@ -15,13 +15,41 @@
     <center>
     <h2 onClick = "show('art')">ART</h2>
     <h2 onClick = "show('writing')">WRITING</h2>
-    <h2>CATEGORY</h2>
+    <h2>CODE</h2>
     </center>
 
     </section>
 
     <section id = "gallery">
     </section>
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-storage.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-database.js"></script>
+
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyBerFw62BPuigrsYiECb5nfSdK7ptFQiS0",
+	    authDomain: "storage-336db.firebaseapp.com",
+	    databaseURL: "https://storage-336db.firebaseio.com",
+	    projectId: "storage-336db",
+	    storageBucket: "storage-336db.appspot.com",
+	    messagingSenderId: "858429690727",
+	    appId: "1:858429690727:web:39830591530ee76f8615c2",
+	    measurementId: "G-BRL0D52H2N"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	  firebase.analytics();
+	</script>
+
+	<script src="script.js"></script>
 
     <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

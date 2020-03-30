@@ -88,17 +88,15 @@ img {
 .fullPic{
 
    display:block;
+   position:relative;
    margin-left:auto;
    margin-right:auto;
-   position:absolute;
-   max-width:80%;
+   margin-bottom:2em;
+   width:80%;
    height:auto;
 
 }
 
-.fullPic:hover{
-	filter:brightness(100%);
-}
 
 p {
   color: black;
@@ -115,6 +113,7 @@ p {
 
 
 .fullText{
+  display:block;
   color: black;
   text-align: justify;
   font-family: 'Cochin';
@@ -126,7 +125,7 @@ p {
   margin-bottom:7em;
 }
 
-img:hover{
+.icon:hover{
   animation: dim 0.5s forwards;
 }
 
@@ -134,8 +133,8 @@ img:hover{
   animation: dimBg 0.5s forwards;
 }
 
-.textBox:hover::after{
-  animation: dimBg 0.5s forwards;
+.fullPic:hover{
+	filter:brightness(100%);
 }
 
 .title{
@@ -160,10 +159,10 @@ img:hover{
 
 @keyframes dimBg {
   0% {
-    background-color: white;
+    filter: opacity(100%);
     }
   100% {
-    background-color: gray;
+    filter: opacity(20%);
     }
 }
 
@@ -175,3 +174,4 @@ img:hover{
     opacity:0;
   }
 }
+
