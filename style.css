@@ -5,8 +5,9 @@ html {
 h1 {
   color: black;
   text-align: center;
-  font-family: 'Cochin';
+  font-family: 'Playfair Display SC', serif;
   font-size: 3em;
+  letter-spacing:1em;
 }
 
 h1:hover{
@@ -33,13 +34,12 @@ h2:hover{
 
 h3 {
   color: black;
-  font-style:italic;
   text-align: right;
-  font-family: 'Cochin';
+  font-family: 'Playfair Display SC', serif;
   font-size: 2em;
   margin-right:2%;
   margin-top:20%;
-  margin-bottom:20%;
+  margin-bottom:10%;
 }
 
 body{
