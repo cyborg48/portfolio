@@ -9,6 +9,17 @@ var fading = false;
 var db = firebase.database().ref().child("MyPortfolio");
 
 function load(){
+  fading = true;
+   var shads = document.getElementsByClassName('shadow');
+   while(shads[0]) {
+    shads[0].parentNode.removeChild(shads[0]);
+  }
+  $("p").fadeOut();
+  $("img").fadeOut();
+  $("box").fadeOut();
+  $("h3").fadeOut();
+  $("shadow").fadeOut();
+  setTimeout(function(){
 	objs_raw = [];
 	textbased = [];
 	imgbased = [];
@@ -109,6 +120,7 @@ function load(){
 		}
 
 	});
+  }, 1000);
 
 }
 
