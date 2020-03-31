@@ -129,9 +129,10 @@ p {
   animation: dim 0.5s forwards;
 }
 
-.textBox:hover {
+
+/*.textBox:hover {
   animation: dimBg 0.5s forwards;
-}
+}*/
 
 .fullPic:hover{
 	filter:brightness(100%);
@@ -175,3 +176,26 @@ p {
   }
 }
 
+.shadow{
+	background-color:black;
+	width:100%;
+	height:100%;
+	opacity:0;
+  	display:inline-block;
+  	position: absolute;
+	z-index:100;
+}
+
+.textBox:hover .shadow{
+	animation: shade 0.5s forwards;
+}
+
+
+@keyframes shade{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:0.5;
+  }
+}

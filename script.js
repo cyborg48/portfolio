@@ -90,6 +90,9 @@ function load(){
 					var body = document.createElement("p");
 					body.className = "preview";
 					body.innerHTML = textbased[txtcount].content[0];
+		  			var shadow = document.createElement("div");
+					shadow.className = "shadow";
+					box.appendChild(shadow);
 					box.appendChild(body);
 					gallery.appendChild(box);
 					currbase = "img";
@@ -111,11 +114,16 @@ function load(){
 
 function show(cat){
   fading = true;
+   var shads = document.getElementsByClassName('shadow');
+   while(shads[0]) {
+    shads[0].parentNode.removeChild(shads[0]);
+  }
   $("p").fadeOut();
   $("img").fadeOut();
   $("box").fadeOut();
   $("textBox").fadeOut();
   $("h3").fadeOut();
+  $("shadow").fadeOut();
   console.log(cat);
    setTimeout(function () {
          gallery.innerHTML = '';
@@ -145,6 +153,9 @@ function show(cat){
 		  var body = document.createElement("p");
 		  body.className = "preview";
 		  body.innerHTML = objs_raw[key].content[0];
+		  var shadow = document.createElement("div");
+		  shadow.className = "shadow";
+		  box.appendChild(shadow);
 		  box.appendChild(body);
 		  currBase = "img";
 		}
@@ -163,10 +174,15 @@ function open(i){
   console.log(objs_raw[key]);
 
   fading = true;
+   var shads = document.getElementsByClassName('shadow');
+   while(shads[0]) {
+    shads[0].parentNode.removeChild(shads[0]);
+  }
   $("p").fadeOut();
   $("img").fadeOut();
   $("box").fadeOut();
   $("h3").fadeOut();
+  $("shadow").fadeOut();
   setTimeout(function(){
 	  gallery.innerHTML = '';
 	  var head = document.createElement("h3");
