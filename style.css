@@ -101,8 +101,8 @@ img {
 p {
   color: black;
   text-align: justify;
-  font-family: 'Cochin';
-  font-size:calc(6px + 0.5vw);
+  font-family: 'EB Garamond', serif;
+  font-size:calc(5px + 0.5vw);
   padding-top:2vw;
   padding-right:2vw;
   padding-left:2vw;
@@ -116,7 +116,7 @@ p {
   display:block;
   color: black;
   text-align: justify;
-  font-family: 'Cochin';
+  font-family: 'EB Garamond', serif;
   font-size:calc(8px + 0.5vw);
   padding-top:1em;
   padding-right:5vw;
