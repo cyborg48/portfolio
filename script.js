@@ -121,6 +121,7 @@ function load(){
 
 	});
   }, 1000);
+  fading = false;
 
 }
 
