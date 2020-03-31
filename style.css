@@ -25,7 +25,7 @@ h2 {
   text-align: center;
   margin-left:2vw;
   margin-right:2vw;
-  font-size:1.5vw;
+  font-size:calc(8px + 0.75vw);
 }
 
 h2:hover{
@@ -102,7 +102,7 @@ p {
   color: black;
   text-align: justify;
   font-family: 'Cochin';
-  font-size: 1vw;
+  font-size:calc(6px + 0.5vw);
   padding-top:2vw;
   padding-right:2vw;
   padding-left:2vw;
@@ -117,12 +117,12 @@ p {
   color: black;
   text-align: justify;
   font-family: 'Cochin';
-  font-size: 1em;
+  font-size:calc(8px + 0.5vw);
   padding-top:1em;
-  padding-right:auto;
-  padding-left:2em;
-  width:95%;
-  margin-bottom:7em;
+  padding-right:5vw;
+  padding-left:5vw;
+  width:auto;
+  margin-bottom:7vw;
 }
 
 .icon:hover{
