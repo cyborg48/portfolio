@@ -164,6 +164,7 @@ function show(cat){
 	  }
     }, 1000);
    fading = false;
+   $(window).scrollTop(0);
 
 }
 
@@ -214,4 +215,5 @@ function open(i){
 
   }, 1000);
   fading = false;
+  $(window).scrollTop(0);
 }
