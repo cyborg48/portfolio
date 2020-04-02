@@ -15,7 +15,7 @@ function load(){
     shads[0].parentNode.removeChild(shads[0]);
   }
   $("p").fadeOut();
-  $("img").fadeOut();
+  $("img:not(.link)").fadeOut();
   $("box").fadeOut();
   $("h3").fadeOut();
   $("shadow").fadeOut();
@@ -132,7 +132,7 @@ function show(cat){
     shads[0].parentNode.removeChild(shads[0]);
   }
   $("p").fadeOut();
-  $("img").fadeOut();
+  $("img:not(.link)").fadeOut();
   $("box").fadeOut();
   $("textBox").fadeOut();
   $("h3").fadeOut();
@@ -193,7 +193,7 @@ function open(i){
     shads[0].parentNode.removeChild(shads[0]);
   }
   $("p").fadeOut();
-  $("img").fadeOut();
+  $("img:not(.link)").fadeOut();
   $("box").fadeOut();
   $("h3").fadeOut();
   $("shadow").fadeOut();

@@ -21,7 +21,7 @@ section{
 }
 
 h2 {
-  display: Inline;
+  display: inline;
   text-align: center;
   margin-left:2vw;
   margin-right:2vw;
@@ -198,4 +198,26 @@ p {
   100%{
     opacity:0.5;
   }
+}
+
+.link{
+	height: 2vw;
+	width:auto;
+   	display:inline;
+  	position:relative;
+	align:center;
+	margin-left:3vw;
+	margin-right:3vw;
+}
+
+#gh.link:hover{
+	content:url("github_green.png");
+}
+
+#ig.link:hover{
+	content:url("ig_green.png");
+}
+
+#bl.link:hover{
+	content:url("blogger_green.png");
 }
