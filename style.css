@@ -10,6 +10,10 @@ h1 {
   letter-spacing:5vw;
 }
 
+#gallery{
+	min-height:50vw;
+}
+
 h1:hover{
   color:darkturquoise;
 }
@@ -138,17 +142,6 @@ p {
 	filter:brightness(100%);
 }
 
-.title{
-  content:"Hello";
-  font-size:1em;
-  color:white;
-  opacity:0;
-}
-
-.textBox:hover .title{
-  opacity:1;
-}
-
 @keyframes dim {
   0% {
     filter: brightness(100%);
@@ -220,4 +213,8 @@ p {
 
 #bl.link:hover{
 	content:url("blogger_green.png");
+}
+
+#socials{
+	margin-top: 3vw;
 }
