@@ -6,8 +6,9 @@ h1 {
   color: black;
   text-align: center;
   font-family: 'Playfair Display SC', serif;
-  font-size: 4vw;
-  letter-spacing:5vw;
+  font-size: 2vw;
+  letter-spacing:0.5vw;
+  margin-top:15vw;
 }
 
 #gallery{
@@ -18,10 +19,20 @@ h1:hover{
   color:darkturquoise;
 }
 
+h4 {
+  color: black;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.2vw;
+  letter-spacing:0.1vw;
+  margin-bottom:10vw;
+  font-weight:normal;
+}
+
 section{
   align-content:center;
   align-items:center;
-  margin-top:5em;
+  margin-top:5vw;
 }
 
 h2 {
@@ -216,5 +227,5 @@ p {
 }
 
 #socials{
-	margin-top: 3vw;
+	margin-top: 8vw;
 }
